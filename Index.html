@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webtoon Episode</title>
+    <style>
+        /* Basic styling for the body and container */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+        }
+        .webtoon-container {
+            width: 800px; /* Standard webtoon width */
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        /* Style for individual comic panels */
+        .panel {
+            display: block;
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+            /* Optional: add some spacing between panels if the images are individual panels, not a single long strip */
+            /* margin-bottom: 5px; */ 
+        }
+        /* Style for navigation */
+        .navigation {
+            text-align: center;
+            padding: 20px;
+        }
+        .navigation a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>   
+    <div class="webtoon-container">
+        <!-- Comic panels (images) arecked vertically -->
+        <img src="Title.png" alt="Panel 1" class="panel">
+        
+        <!-- Navigation links -->
+        <div class="navigation">
+| 
+            <a href="Scene123.html">Next Page</a> |             
+        </div>
+    </div>
+</body>
+</html>
